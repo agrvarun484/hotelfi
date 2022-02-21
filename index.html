@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+<head>
+<TITLE>HotelFi</TITLE>
+<link rel="shortcut icon" type="image/x=icon" href="https://cdn-icons-png.flaticon.com/512/183/183595.png" />
+<style type="text/css">
+body{
+background-image: url('bg.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+.menu{
+    width: 750px;
+    float: right;
+    height: 100px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: -125px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Aerial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.heading{
+    width: 1000px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo{
+    color: #ff7203;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+img{
+    border-radius: 10%;
+
+}
+
+.ModifiedImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.delhi{
+    background-color: white;
+    color: teal;
+    
+}
+
+.maha{
+    background-color: white;
+    color: teal;
+    
+}
+
+
+footer {
+  text-align: center;
+  padding: 100px;
+  background-color: #FFE5B4;
+  color: white;
+  display: block;
+}
+
+.footerimage{
+    height: 190px;
+    margin-right: 970px;
+    margin-top: -75px;
+}
+
+.footerheading{
+    font-size: 50px;
+    color: blue;
+    margin-top: -175px;
+}
+
+.rights{
+    color: black;
+}
+
+.contact1{
+    height: 500px;
+    background-color: #d43d22;
+    border-radius: 50px;
+}
+
+.headingcontact{
+    margin-left: 600px;
+    color: #f1edea;
+
+}
+
+.boxed {
+background-color: white;
+height: 330px;
+width: 1000px;
+margin-left: 100px;
+}
+
+.emailus{
+    margin-left: 30px;
+}
+
+.emailid{
+    margin-left: 40px;
+    color: rgb(46, 41, 41);
+}
+
+.callus{
+    margin-left: 30px; 
+}
+
+.phone{
+    margin-left: 40px;
+    color: rgb(46, 41, 41);
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover{
+  box-shadow: 0 20px 6px 0 rgba(0,0,0,0.2);
+  
+}
+
+.container {
+  padding: 2px 16px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(202, 201, 201);
+  border-radius: 30px;
+  height: 130px;
+  margin-top: 10px;
+}
+
+.container2 {
+  padding: 2px 16px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(202, 201, 201);
+  border-radius: 30px;
+  height: 130px;
+  margin-top: 10px;
+}
+
+.container3 {
+  padding: 2px 16px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(202, 201, 201);
+  border-radius: 30px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+.casimg{
+  height: 250px;
+}
+
+</style>
+</head>
+
+<body>
+
+  <div class = "main heading"  id="home1">
+      <div class="hello1">
+    <h1 class="logo">HotelFi</h1>
+      </div>
+  </div>
+
+<div class="menu">
+    <ul>
+        <li><a href="/home/varun/my%20work/work/html/hotel.html">HOME</a></li>
+        <li><a href="#delhi1">HOTELS</a></li>
+        <li><a href="#contactarea">CONTACT</a></li>
+        <li><a href="#aboutpage">ABOUT</a></li>
+
+    </ul>
+</div>
+
+    <img src="modifiedimage.png" class="ModifiedImage">    
+
+    <div class = "delhi"  id="delhi1">
+        <h2>Top Hotels in Delhi:- </h2>
+    </div>
+
+
+
+    <!-- Hotels Column in Delhi --> 
+
+<div class="row">
+  <div class="column" >
+    <div class="card">
+      <img class="casimg" src="https://pix8.agoda.net/hotelImages/442/442990/442990_16062712440044128483.jpg?ca=6&ce=1&s=1024x768" alt="Avatar" style="width:100%"> 
+    </div>
+    <div class="container">
+      <a href="/home/varun/my work/work/html/hotel1.html" target="_blank"><h4><b>Hotel All Iz Well</b></h4></a>
+      <p>★★★</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="casimg" src="https://pix8.agoda.net/hotelImages/9380120/0/7da366b24698cd30c39f6e1d545057f3.jpg?s=1024x768" alt="Avatar" style="width:100%"> 
+    </div>
+    <div class="container2">
+      <a href="/home/varun/my work/work/html/hotel2.html"> <h4><b>Radisson Blu Marina Hotel</b></h4></a>
+      <p>★★★★★</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img class="casimg" src="https://pix8.agoda.net/hotelImages/194/194488/194488_14060515590019718447.jpg?ca=2&ce=1&s=1024x768" alt="Avatar" style="width: 100%">
+    </div>
+    <div class="container3">
+      <a href="/home/varun/my work/work/html/hotel3.html"><h4><b>The Piccadily Hotel</b></h4></a>
+      <p>★★★★★</p>
+    </div>
+  </div>
+   
+</div>
+
+
+
+<div class = "maha"  id="maha1">
+  <h2>Top Hotels in Maharashtra:- </h2>
+</div>
+
+
+<!-- Hotels Column in Maharastra -->
+
+<div class="row">
+  <div class="column" >
+    <div class="card">
+      <img class="casimg"  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/dc/ac/0b/caption.jpg?w=1100&h=-1&s=1" alt="Avatar" style="width:100%"> 
+    </div>
+    <div class="container">
+     <a href="/home/varun/my work/work/html/hotel4.html"> <h4><b>1-India Resorts</b></h4></a>
+      <p>★★★★</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="casimg" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/bb/98/a1/exterior.jpg?w=1200&h=-1&s=1" alt="Avatar" style="width:100%"> 
+    </div>
+    <div class="container2">
+      <a href="/home/varun/my work/work/html/hotel5.html"><h4><b>Hyatt Regency Pune Hotel</b></h4></a>
+      <p>★★★★★</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img class="casimg" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/fe/c5/cb/blue-ocean-resort-and.jpg?w=1200&h=-1&s=1" alt="Avatar" style="width: 100%">
+    </div>
+    <div class="container3">
+      <a href="/home/varun/my work/work/html/hotel6.html"><h4><b>Blue Ocean Resort</b></h4></a>
+      <p>★★★★★</p>
+    </div>
+  </div>
+   
+</div>
+
+
+<div class = "maha"  id="raj1">
+  <h2>Top Hotels in Rajasthan:- </h2>
+</div>
+
+<!--Hotels Column in Rajasthan-->
+<div class="row">
+  <div class="column" >
+    <div class="card">
+      <img class="casimg"  src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/86/65/d5/mahua-bagh.jpg?w=1200&h=-1&s=1" alt="Avatar" style="width:100%"> 
+    </div>
+    <div class="container">
+  <a href="/home/varun/my work/work/html/hotel7.html"> <h4><b>Mahua Bagh Resort</b></h4></a>
+      <p>★★★★</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img class="casimg" src="https://lh5.googleusercontent.com/p/AF1QipPJzC54AzgiuJsrEcD1b23wc5tgQkMywL7FF6k2=w1080-k-no" alt="Avatar" style="width:100%"> 
+    </div>
+    <div class="container2">
+    <a href="/home/varun/my work/work/html/hotel8.html"> <h4><b>Hotel Radhika</b></h4></a>
+      <p>★★★</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img class="casimg" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/c3/05/7b/hotel.jpg?w=1200&h=-1&s=1" alt="Avatar" style="width: 100%">
+    </div>
+    <div class="container3">
+      <a href="/home/varun/my work/work/html/hotel9.html"><h4><b>Hotel Shikha</b></h4></a>
+      <p>★★★</p>
+    </div>
+  </div>
+   
+</div>
+
+
+<div class="contact1" id="contactarea">
+<h1 class="headingcontact" > CONTACT</h1>
+<hr>
+
+<div class="boxed">
+<h1 class="emailus">Email Us:</h1>
+<h3 class="emailid">varunsinghal484@gmail.com</h3><br>
+<h1 class="callus"> Call Us:</h1>
+<h3 class="phone">+91 8920193609<br> +91 9654385030</h3>
+</div>
+</div>
+
+<footer>
+    <img id="aboutpage" class="footerimage" src="https://cdn-icons-png.flaticon.com/512/183/183595.png ">
+    <h1 class="footerheading">HotelFi</h1>
+    <p class="rights">© 2022 HotelFi LLC All rights reserved.  </p>
+    <a href="#home1">Home</a><br>
+    <a href="#delhi1">Check out Top Hotels in Delhi</a><br>
+    <a href="#maha1">Check out Top Hotels in Maharashtra</a><br>
+    <a href="#raj1">Check out Top Hotels in Rajasthan</a><br>
+
+
+  </footer>
+
+
+</body>
+
+
+</html>
